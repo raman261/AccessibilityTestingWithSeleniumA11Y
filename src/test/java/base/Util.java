@@ -21,6 +21,7 @@ public class Util {
 		String fileWithPath = System.getProperty("user.dir") + "/reports/"+dateName+".png";
 		File DestFile=new File(fileWithPath);
 		FileUtils.copyFile(SrcFile, DestFile);
+		
 
 		return fileWithPath;
 
